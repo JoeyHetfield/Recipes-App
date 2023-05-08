@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/recipes-app/static/css/main.0a205fe4.css",
-    "main.js": "/recipes-app/static/js/main.2ae24185.js",
+    "main.js": "/recipes-app/static/js/main.f5a6b97a.js",
     "static/media/tomato.svg": "/recipes-app/static/media/tomato.cf2ad35c88fb20410ae41b3186aa7e18.svg",
     "static/media/whiteHeartIcon.svg": "/recipes-app/static/media/whiteHeartIcon.2b822118952dc5140129c6349fcd0472.svg",
     "static/media/logo-recipes-app.svg": "/recipes-app/static/media/logo-recipes-app.41bab340aaa08a53a4f3a759f18b56aa.svg",
@@ -25,10 +25,10 @@
     "static/media/drink-icon.svg": "/recipes-app/static/media/drink-icon.68bca4be1fc6862edc7e1c2a14d4cdeb.svg",
     "static/media/logout.svg": "/recipes-app/static/media/logout.d60dd1a3860f60736646f09df4cff086.svg",
     "main.0a205fe4.css.map": "/recipes-app/static/css/main.0a205fe4.css.map",
-    "main.2ae24185.js.map": "/recipes-app/static/js/main.2ae24185.js.map"
+    "main.f5a6b97a.js.map": "/recipes-app/static/js/main.f5a6b97a.js.map"
   },
   "entrypoints": [
     "static/css/main.0a205fe4.css",
-    "static/js/main.2ae24185.js"
+    "static/js/main.f5a6b97a.js"
   ]
 }
