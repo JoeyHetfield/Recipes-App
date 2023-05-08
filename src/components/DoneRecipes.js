@@ -22,8 +22,8 @@ function DoneRecipes() {
   }, []);
 
   const handlerClickFavorite = async (mealsOrDrink, id) => {
-    if (mealsOrDrink === 'meal') await copy(`http://localhost:3000/meals/${id}`);
-    if (mealsOrDrink === 'drink') await copy(`http://localhost:3000/drinks/${id}`);
+    if (mealsOrDrink === 'meal') await copy(`https://joeyhetfield.github.io/recipes-app/meals/${id}`);
+    if (mealsOrDrink === 'drink') await copy(`https://joeyhetfield.github.io/recipes-app/drinks/${id}`);
     setAlertCopy(true);
   };
 

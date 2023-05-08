@@ -66,7 +66,7 @@ function FavoriteRecipes() {
           name,
           image,
         }, index) => {
-          const URL = `http://localhost:3000/${type}s/${id}`;
+          const URL = `https://joeyhetfield.github.io/recipes-app/${type}s/${id}`;
 
           let text = alcoholicOrNot;
           if (type === 'meal') text = `${nationality} - ${category}`;

@@ -7,18 +7,18 @@ function BtnBack() {
   const pageId = history.location.pathname.replace(/[^0-9]/g, '');
 
   const backPage = () => {
-    if (history.location.pathname.includes('/meals')) {
-      if (history.location.pathname === `/meals/${pageId}/in-progress`) {
-        history.push(`/meals/${pageId}`);
+    if (history.location.pathname.includes('/recipes-app/meals')) {
+      if (history.location.pathname === `/recipes-app/meals/${pageId}/in-progress`) {
+        history.push(`/recipes-app/meals/${pageId}`);
       } else {
-        history.push('/meals');
+        history.push('/recipes-app/meals');
       }
     }
-    if (history.location.pathname.includes('/drinks')) {
-      if (history.location.pathname === `/drinks/${pageId}/in-progress`) {
-        history.push(`/drinks/${pageId}`);
+    if (history.location.pathname.includes('/recipes-app/drinks')) {
+      if (history.location.pathname === `/recipes-app/drinks/${pageId}/in-progress`) {
+        history.push(`/recipes-app/drinks/${pageId}`);
       } else {
-        history.push('/drinks');
+        history.push('/recipes-app/drinks');
       }
     }
   };

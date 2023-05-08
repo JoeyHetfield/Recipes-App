@@ -6,10 +6,10 @@ import '../css/Footer.css';
 function Footer() {
   return (
     <div className="footer" data-testid="footer">
-      <a href="/drinks">
+      <a href="recipes-app//drinks">
         <img src={ drinkIcon } alt="Drinks icon" data-testid="drinks-bottom-btn" />
       </a>
-      <a href="/meals">
+      <a href="recipes-app//meals">
         <img src={ mealIcon } alt="Meals icon" data-testid="meals-bottom-btn" />
       </a>
     </div>

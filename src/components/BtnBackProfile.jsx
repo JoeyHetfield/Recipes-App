@@ -6,11 +6,11 @@ function BtnBackProfile() {
   const history = useHistory();
 
   const backPage = () => {
-    if (history.location.pathname.includes('/done-recipes')) {
-      history.push('/profile');
+    if (history.location.pathname.includes('/recipes-app/done-recipes')) {
+      history.push('/recipes-app/profile');
     }
-    if (history.location.pathname.includes('/favorite-recipes')) {
-      history.push('/profile');
+    if (history.location.pathname.includes('/recipes-app/favorite-recipes')) {
+      history.push('/recipes-app/profile');
     }
   };
   return (
