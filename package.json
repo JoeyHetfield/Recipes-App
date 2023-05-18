@@ -1,6 +1,6 @@
 {
   "name": "recipes-app",
-  "homepage": "https://joeyhetfield.github.io/recipes-app/",
+  "homepage": "http://joeyhetfield.github.io/recipes-app/",
   "version": "1.0.0",
   "private": true,
   "engines": {
